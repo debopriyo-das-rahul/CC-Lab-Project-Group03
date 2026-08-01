@@ -1,0 +1,11 @@
+// Example: nested blocks with proper scoping
+// The inner "x" shadows the outer "x" only within the if-block;
+// the outer print after the block sees the outer x again.
+int x;
+x = 1;
+if (x == 1) {
+int x;
+x = 99;
+print x;
+}
+print x;

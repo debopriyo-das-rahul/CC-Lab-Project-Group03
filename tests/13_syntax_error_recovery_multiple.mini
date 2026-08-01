@@ -1,0 +1,5 @@
+int a;
+a = 1 2;
+int b;
+b = 3 4;
+print a;

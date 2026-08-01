@@ -1,0 +1,9 @@
+// Example: variable declarations (int, float, bool) and arithmetic expressions
+// Demonstrates operator precedence: b * 2 is evaluated before a + (b * 2)
+int a;
+int b;
+int c;
+a = 5;
+b = 10;
+c = a + b * 2;
+print c;
